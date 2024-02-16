@@ -56,3 +56,61 @@ img {
   border: 1px solid #BEBEBE;
   border-radius: 40px;
 }
+.header__content {
+  height: 617px;
+  background-image: url(../images/header-bg.jpg);
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header__content-textblock {
+  max-width: 479px;
+  padding-top: 90px;
+  margin-left: 46px;
+}
+.header__content-subtitle {
+  margin-bottom: 15px;
+}
+.header__content-title {
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+.header__content-text {
+  margin-bottom: 24px;
+}
+.header__content-form {
+  position: relative;
+}
+.header__content-email {
+  padding: 18px 160px 18px 24px;
+  border: none;
+  width: 100%;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header__content-btn {
+  padding: 18px 25px;
+  color: #FEFEFF;
+  background-color: #1F1F1F;
+  border: none;
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.header__content-img {
+  max-width: 848px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
