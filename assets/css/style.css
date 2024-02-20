@@ -30,6 +30,11 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 120%;
+}
 
 
 .header__menu {
@@ -113,4 +118,37 @@ img {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.steps {
+  padding: 100px 0 130px;
+}
+.steps__subtitle {
+  margin-bottom: 16px;
+  text-align: center;
+
+}
+.steps__title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.steps__items {
+  display: flex;
+  justify-content: space-around;
+}
+.steps__item {
+  max-width: 329px;
+}
+.steps__item-img {
+  max-width: 75px;
+  margin-bottom: 22px;
+}
+.steps__item-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 22px;
+}
+.steps__item-text {
+  line-height: 24px;
 }
