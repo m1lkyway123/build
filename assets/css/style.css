@@ -266,3 +266,36 @@ img {
   max-width: 550px;
   border-radius: 14px;
 }
+
+.footer {
+  padding-bottom: 110px;
+}
+.footer__inner {
+  background-image: url(../images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 56px 0 122px 43px;
+  position: relative;
+}
+.footer__textblock {
+  max-width: 642px;
+}
+.footer__title {
+  margin-bottom: 18px;
+}
+.footer__text {
+  max-width: 526px;
+  margin-bottom: 45px;
+}
+.footer__content-form {
+  position: relative;
+  max-width: 469px;
+}
+.footer__img {
+  max-width: 600px;
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
